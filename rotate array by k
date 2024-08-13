@@ -1,0 +1,5 @@
+class Solution:
+    def leftRotate(self, arr, d):
+        start=arr[d:]
+        end=arr[:d]
+        arr[:]=start+end
